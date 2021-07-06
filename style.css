@@ -5,8 +5,7 @@ body {
 }
 .flexible-container {
   display: flex;
-  margin-bottom: 100px;
-  /* background-color: #cdcdcd; */
+  /* margin-bottom: 100px; */
 }
 .half-width {
   width: 40%;
@@ -35,4 +34,9 @@ h1 {
   border-radius: 30px;
   box-shadow: 0px 0px 10px 0px tomato;
   font-size: 20px;
+}
+.about-me-background {
+  background-image: url(images/middle-background.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
 }
