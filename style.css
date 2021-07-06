@@ -40,17 +40,17 @@ h1 {
   background-repeat: no-repeat;
   background-size: 100%;
 }
-.recipe-header {
-  /* text-align: center; */
+.recipe-area {
   padding-left: 5%;
   padding-right: 5%;
+  margin-bottom: 100px;
 }
-.recipe-header h1 {
+.recipe-area h1 {
   height: 30px;
   font-size: 40px;
   text-align: center;
 }
-.recipe-header p {
+.recipe-area p {
   text-align: center;
   font-weight: 600;
   height: 75px;
@@ -58,10 +58,10 @@ h1 {
 .quarter-width {
   width: 30%;
   border: 15px solid #fff;
-  box-shadow: 0px 0px 25px 0px grey;
+  box-shadow: 0px 0px 20px 0px grey;
   border-radius: 30px;
-  margin-left: 5%;
-  margin-left: 5%;
+  margin-left: 2.5%;
+  margin-right: 2.5%;
 }
 .quarter-width img {
   width: 100%;
@@ -73,4 +73,32 @@ h1 {
 .quarter-width p {
   text-align: left;
   font-weight: normal;
+}
+.counter-area {
+  border: 10px solid #fff;
+  box-shadow: 0px 0px 20px 0px grey;
+  border-radius: 15px;
+  margin-left: 7%;
+  margin-right: 7%;
+  margin-bottom: 100px;
+}
+.counter-area-quarter {
+  width: 100%;
+  padding-left: 1%;
+  padding-right: 1%;
+  text-align: center;
+}
+.counter-area-quarter h1 {
+  font-size: 40px;
+  height: 20px;
+}
+footer {
+  background-color: #0b0d17;
+  color: #fff;
+  text-align: center;
+  padding: 10px 0 50px 0;
+}
+footer h1 {
+  font-size: 30px;
+  height: 25px;
 }
